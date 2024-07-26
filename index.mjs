@@ -61,3 +61,6 @@ console.log (IsFirstGreaterThanLast)
 let a = (n2-n1)*n3%n4
 console.log(a)
 
+// All numbers under 25
+const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
+console.log(isUnder25)
