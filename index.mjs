@@ -4,7 +4,6 @@ const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
-
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
@@ -52,18 +51,18 @@ const dontDoThis =
   n2 != n4 &&
   n3 != n4;
 
-  const isDivFive = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0
-  console.log(isDivFive)
+const isDivFive = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
+console.log(isDivFive);
 
-  const IsFirstGreaterThanLast = n1 > n4
-console.log (IsFirstGreaterThanLast)
+const IsFirstGreaterThanLast = n1 > n4;
+console.log(IsFirstGreaterThanLast);
 
-let a = (n2-n1)*n3%n4
-console.log(a)
+let a = ((n2 - n1) * n3) % n4;
+console.log(a);
 
 // All numbers under 25
 const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
-console.log(isUnder25)
+console.log(isUnder25);
 
 // PART 2
 // You are planning a cross-country road trip!
@@ -75,12 +74,24 @@ console.log(isUnder25)
 // You have a fuel budget of $175.
 // The average cost of fuel is $3 per gallon.
 
-
 // Set up a program to answer the following questions:
 // How many gallons of fuel will you need for the entire trip?
-const FuelFiftyFive = 1500/30
-const FuelSixty = 1500/28
-const FuelSeventyFive = 1500/23
+const FuelFiftyFive = 1500 / 30;
+const FuelSixty = 1500 / 28;
+const FuelSeventyFive = 1500 / 23;
+console.log(FuelFiftyFive);
+console.log(FuelSixty);
+console.log(FuelSeventyFive);
 
 // Will your budget be enough to cover the fuel expense?
+const FuelFiftyFiveCost = FuelFiftyFive*3
+const FuelSixtyCost = FuelSixty*3
+const FuelSeventyFiveCost = FuelSeventyFive*3
+console.log(FuelFiftyFiveCost);
+console.log(FuelSixtyCost);
+console.log(FuelSeventyFiveCost);
+
+console.log(FuelFiftyFiveCost<175)
+console.log(FuelSixtyCost<175)
+console.log(FuelSeventyFiveCost<175)
 // How long will the trip take, in hours?
