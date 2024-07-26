@@ -79,27 +79,24 @@ console.log(isUnder25);
 const FuelFiftyFive = 1500 / 30;
 const FuelSixty = 1500 / 28;
 const FuelSeventyFive = 1500 / 23;
-console.log(FuelFiftyFive);
-console.log(FuelSixty);
-console.log(FuelSeventyFive);
+console.log(`Gallons of gas required for 55mph: ${FuelFiftyFive}.`);
+console.log(`Gallons of gas required for 60mph: ${FuelSixty}.`);
+console.log(`Gallons of gas required for 75mph: ${FuelSeventyFive}.`);
 
 // Will your budget be enough to cover the fuel expense?
 const FuelFiftyFiveCost = FuelFiftyFive*3
 const FuelSixtyCost = FuelSixty*3
 const FuelSeventyFiveCost = FuelSeventyFive*3
-console.log(FuelFiftyFiveCost);
-console.log(FuelSixtyCost);
-console.log(FuelSeventyFiveCost);
 
-console.log(FuelFiftyFiveCost<175)
-console.log(FuelSixtyCost<175)
-console.log(FuelSeventyFiveCost<175)
+console.log(`Budget enough to cover the fuel expense 55mph? ${FuelFiftyFiveCost<175}`)
+console.log(`Budget enough to cover the fuel expense 60mph? ${FuelSixtyCost<175}`)
+console.log(`Budget enough to cover the fuel expense 75mph? ${FuelSeventyFiveCost<175}`)
 
 // How long will the trip take, in hours?
 const TripTimeFiftyFive = 1500/55
 const TripTimeSixty = 1500/60
 const TripTimeSeventyFive = 1500/75
 
-console.log(`The trip time of TripTimeFiftyFive is ${TripTimeFiftyFive} hours.`)
-console.log(`The trip time of TripTimeSixty is ${TripTimeSixty} hours.`)
-console.log(`The trip time of TripTimeSeventyFive is ${TripTimeSeventyFive} hours.`)
+console.log(`The trip time of 55mph is ${TripTimeFiftyFive} hours.`)
+console.log(`The trip time of 60mph is ${TripTimeSixty} hours.`)
+console.log(`The trip time of 75mph is ${TripTimeSeventyFive} hours.`)
