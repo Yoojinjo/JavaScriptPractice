@@ -57,3 +57,7 @@ const dontDoThis =
 
   const IsFirstGreaterThanLast = n1 > n4
 console.log (IsFirstGreaterThanLast)
+
+let a = (n2-n1)*n3%n4
+console.log(a)
+
