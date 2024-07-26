@@ -94,4 +94,12 @@ console.log(FuelSeventyFiveCost);
 console.log(FuelFiftyFiveCost<175)
 console.log(FuelSixtyCost<175)
 console.log(FuelSeventyFiveCost<175)
+
 // How long will the trip take, in hours?
+const TripTimeFiftyFive = 1500/55
+const TripTimeSixty = 1500/60
+const TripTimeSeventyFive = 1500/75
+
+console.log(`The trip time of TripTimeFiftyFive is ${TripTimeFiftyFive} hours.`)
+console.log(`The trip time of TripTimeSixty is ${TripTimeSixty} hours.`)
+console.log(`The trip time of TripTimeSeventyFive is ${TripTimeSeventyFive} hours.`)
