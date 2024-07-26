@@ -4,6 +4,7 @@ const n2 = 15;
 const n3 = 20;
 const n4 = 5;
 
+
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
@@ -50,3 +51,9 @@ const dontDoThis =
   n2 != n3 &&
   n2 != n4 &&
   n3 != n4;
+
+  const isDivFive = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0
+  console.log(isDivFive)
+
+  const IsFirstGreaterThanLast = n1 > n4
+console.log (IsFirstGreaterThanLast)
